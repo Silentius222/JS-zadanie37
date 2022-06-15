@@ -4,6 +4,6 @@ document.querySelector("#dodaj").onclick = function() {
 }
 
 document.querySelector("#usun").onclick = function() {
-    let usunZdanie = document.querySelector("p");
-    zdanie.textContent = " ";
+ let usunZdanie = document.querySelector("p");
+  usunZdanie.textContent = " ";
 }
